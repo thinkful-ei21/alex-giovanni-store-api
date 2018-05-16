@@ -13,3 +13,9 @@ api.getItems(function(data) {
 });
 
 console.log(api.BASE_URL);
+
+// api.createItem('coffee', (newItem) => {
+//   api.getItems((items) => {
+//     console.log(items);
+//   });
+// });
