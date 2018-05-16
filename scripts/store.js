@@ -34,7 +34,8 @@ const store = (function(){
   const findAndUpdate = function (id, newData){
     const item = this.items.find(item => item.id === id);
     Object.assign(item, newData);
-  }
+    
+  };
 
   const toggleCheckedFilter = function() {
     this.hideCheckedItems = !this.hideCheckedItems;
