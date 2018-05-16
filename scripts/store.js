@@ -5,12 +5,6 @@
 const store = (function(){
 
   const addItem = function(item) {
-    // try {
-    //   Item.validateName(name);
-    //   this.items.push(Item.create(name));
-    // } catch(e) {
-    //   console.log(e.message);
-    // }
     this.items.push(item);
   };
 
